@@ -1,0 +1,10 @@
+\\Mac\Home\Documents\VisualStudioProjects\Qlik Sense\ADAuthModule\ADGroupResolver\bin\Debug\ADGroupResolver.dll
+\\Mac\Home\Documents\VisualStudioProjects\Qlik Sense\ADAuthModule\ADGroupResolver\bin\Debug\ADGroupResolver.pdb
+\\Mac\Home\Documents\VisualStudioProjects\Qlik Sense\ADAuthModule\ADGroupResolver\obj\Debug\ADGroupResolver.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\VisualStudioProjects\Qlik Sense\ADAuthModule\ADGroupResolver\obj\Debug\ADGroupResolver.dll
+\\Mac\Home\Documents\VisualStudioProjects\Qlik Sense\ADAuthModule\ADGroupResolver\obj\Debug\ADGroupResolver.pdb
+\\psf\Home\Documents\VisualStudioProjects\Qlik Sense\ADAuthModule\ADGroupResolver\bin\Debug\ADGroupResolver.dll
+\\psf\Home\Documents\VisualStudioProjects\Qlik Sense\ADAuthModule\ADGroupResolver\bin\Debug\ADGroupResolver.pdb
+\\psf\Home\Documents\VisualStudioProjects\Qlik Sense\ADAuthModule\ADGroupResolver\obj\Debug\ADGroupResolver.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\VisualStudioProjects\Qlik Sense\ADAuthModule\ADGroupResolver\obj\Debug\ADGroupResolver.dll
+\\psf\Home\Documents\VisualStudioProjects\Qlik Sense\ADAuthModule\ADGroupResolver\obj\Debug\ADGroupResolver.pdb
