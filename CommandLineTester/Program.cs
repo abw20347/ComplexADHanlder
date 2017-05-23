@@ -15,8 +15,7 @@ namespace TestLDAPquery
 
             if (args.Length == 0)
             {
-                groups = rg.GetNestedGroupMembershipsByTokenGroup("LDAP://CN=Joe Bickley,OU=Users,OU=United Kingdom,DC=qliktech,DC=com", "GC://DC=qliktech,DC=com");
-           
+                groups = rg.GetNestedGroupMembershipsByTokenGroup("LDAP://CN=Joe Bickley,OU=Users,OU=United Kingdom,DC=qliktech,DC=com", "GC://DC=qliktech,DC=com");           
             }
             else
             {
