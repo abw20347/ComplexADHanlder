@@ -9,29 +9,39 @@ namespace TestLDAPquery
         static void Main(string[] args)
         {
 
-            ResolveGroups rg = new ResolveGroups();
-
-            List<string> groups;
-
-            if (args.Length == 0)
+            try
             {
-                groups = rg.GetNestedGroupMembershipsByTokenGroup("LDAP://CN=Joe Bickley,OU=Users,OU=United Kingdom,DC=qliktech,DC=com", "GC://DC=qliktech,DC=com");           
+
+                ResolveGroups rg = new ResolveGroups();
+
+                List<string> groups = new List<string>();
+
+
+                if (args.Length == 0)
+                {
+                    throw new Exception("No parameters specified to search with");
+                    //groups = rg.GetNestedGroupMembershipsByTokenGroup("LDAP://CN=Joe Bickley,OU=Users,OU=United Kingdom,DC=qliktech,DC=com", "GC://DC=qliktech,DC=com");
+                    //groups = rg.GetNestedGroupMembershipsByTokenGroup(@"LDAP://CN=Avcin\, Mića,OU=ZA,OU=Test Users,DC=serverunit,DC=performance", "GC://10.76.128.46");
+                }
+                else
+                {
+                    groups = rg.GetNestedGroupMembershipsByTokenGroup(args[0], args[1]);
+                }
+
+
+                // Print results...
+
+                Console.WriteLine("Groups found: " + groups.Count);
+
+                foreach (string group in groups)
+                {
+                    Console.WriteLine(group);
+                }
             }
-            else
+            catch(Exception ex)
             {
-                groups = rg.GetNestedGroupMembershipsByTokenGroup(args[0], args[1]);
+                Console.WriteLine("An Error Occurred:   " + ex.Message);
             }
-
-
-            // Print results...
-
-            Console.WriteLine("Groups found: " + groups.Count); 
-
-            foreach (string group in groups)
-            {
-                Console.WriteLine(group);
-            }
-
             Console.ReadKey();
         }
 

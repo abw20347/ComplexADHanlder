@@ -14,10 +14,10 @@ namespace ADGroupResolver
             List<string> nestedGroups = new List<string>();
 
             DirectoryEntry userEnrty = new DirectoryEntry(domainroot);
+
             userEnrty.Path = userDN;
 
             // Use RefreshCach to get the constructed attribute tokenGroups.
-
             userEnrty.RefreshCache(new string[] { "tokenGroups" });
 
             StringBuilder sb = new StringBuilder();
@@ -47,7 +47,7 @@ namespace ADGroupResolver
             foreach (SearchResult sr in src)
             {
                 //Here is each group now...
-                nestedGroups.Add(sr.Properties["samAccountName"][0].ToString());
+                nestedGroups.Add(sr.Properties["samAccountName"][0].ToString() + "   -   " + sr.Path.ToString());
             }
 
 
