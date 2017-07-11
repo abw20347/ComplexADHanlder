@@ -16,7 +16,7 @@ CommandLineTester - A basic command line tool to test ADGroupResolver standalone
 
 Download the code, build and from the command line run the following subbing in a full DN for a user and the URL for the global catalog.  The exe will need to be executed as a user of the domain and should return a list of all the users groups to the console.
 
-CommandLineTester.exe "LDAP://CN=Joe Bickley,OU=Users,OU=United Kingdom,DC=qliktech,DC=com", "GC://DC=qliktech,DC=com"
+CommandLineTester.exe "LDAP://CN=Joe Bickley,OU=Users,OU=United Kingdom,DC=qliktech,DC=com" "GC://DC=qliktech,DC=com"
 
 
 
