@@ -7,8 +7,8 @@
     <ProjectGuid>{78A39BAD-A3FB-4FBE-A97E-39E9903B029C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestLDAPquery</RootNamespace>
-    <AssemblyName>TestLDAPquery</AssemblyName>
+    <RootNamespace>CommandLineTester</RootNamespace>
+    <AssemblyName>CommandLineTester</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

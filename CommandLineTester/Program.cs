@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using ADGroupResolver;
 
-namespace TestLDAPquery
+namespace CommandLineTester
 {
     class Program
     {
